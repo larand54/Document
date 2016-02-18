@@ -1,0 +1,40 @@
+diff --git a/alvesql01_Fastreportnames.txt b/alvesql03_FastReportNames.txt
+index 6658396..8631dc0 100644
+--- a/alvesql01_Fastreportnames.txt
++++ b/alvesql03_FastReportNames.txt
+@@ -28,7 +28,7 @@ ReportNo	DocType	ReportName	Description	StoredProcName	DatasetUserName
+56	4	TALLY_NOTE_VER3_ENG.fr3	Följesedel försäljning (engelska)	dbo.vis_PopTally_III_FR	DS_MAIN
+61	1	Försäljningskontrakt-proforma_SV.fr3	Försäljningskontrakt  - proforma (SE)	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+65	621	AVROPSORDER_NOTE_STATUS_ver3_SV.fr3	Avrop	dbo.vis_Avrop_STATUS_v3_FR	DS_MAIN
+69	[-622-]{+6+}	TRP_AVROPSORDER_NOTE_STATUS_SV.fr3	Trporder avrop försäljning	dbo.vida_TRP_AVROPSORDER_STATUS_FR	DS_MAIN
+71	630	KONTRACT_AGENT.FR3	Kontrakt VTA agent, annan förs.region	dbo.vida_KONTRAKT_SR	DS_MAIN
+73	7	SPECIFICATION_VER2_VTA.fr3	VTA Spec (ENG)	dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+74	1	CONTRACTProdInstru_NOTE-LENA-TSUDA.fr3	Proforma kontrakt Tsuda	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+@@ -75,15 +75,19 @@ ReportNo	DocType	ReportName	Description	StoredProcName	DatasetUserName
+319	8	WM_PrisLista.fr3	Kontrakt engelsk version	dbo.Vis_PrislistaRpt	DS_MAIN
+502	621	AVROPSORDER_NOTE_STATUS_ver3_ENG.fr3	Avrop	dbo.vis_Avrop_STATUS_v3_FR	DS_MAIN
+503	623	AVROPSORDER_NOTE_ver2_ENG.fr3		dbo.vida_AVROP_v2_FR	DS_MAIN
+504	[-622-]{+106+}	TRP_AVROPSORDER_NOTE_STATUS_ENG.fr3	Trporder avrop försäljning	dbo.vida_TRP_AVROPSORDER_STATUS_FR	DS_MAIN
+505	624	TRP_AVROPSORDER_NOTE_ENG.fr3	Trporder avrop försäljning	dbo.vida_TRP_AVROPSORDER_FR	DS_MAIN
+506	103	LASTORDER_NOTE_ver3_ENG.fr3	Lastorder försäljning[-engelsk version-]	dbo.vis_LO_v3_FR	DS_MAIN
+507	103	LASTORDER_NOTE_STATUS_ver3_ENG.fr3		dbo.vis_LO_STATUS_v3_FR	DS_MAIN
+508	567	SPECIFICATION_ver3_ENG.fr3		dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+509	631	INCONTRACTProdInstru_NOTE_ver2_ENG.fr3	Inköpskontrakt Engelsk - med instruktioner	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+510	106	TRP_ORDER_NOTE_ENG.fr3	Transportorder/Orderbekräftelse	dbo.vida_TRP_ORDER_FR	DS_MAIN
+512	106	TRP_ORDER_NOTE_STATUS_ENG.fr3		dbo.vida_TRP_ORDER_STATUS_FR	DS_MAIN
+[-513-]{+526+}	101	Lev_Kontrakt_ENG.fr3		dbo.Vida_ShipPerOrd_FR	DS_MAIN
+{+527	518	COPYFAKTURA_NOTE.fr3		dbo.vida_INVOICE	DS_MAIN+}
+{+528	3	LASTORDER_VERK_NOTE_STATUS_ver3_SV.fr3	Lastorder	dbo.vis_LO_VERK_STATUS_v3_FR	DS_MAIN+}
+{+529	103	LASTORDER_VERK_NOTE_ver3_ENG.fr3	Lastorder	dbo.vis_LO_VERK_v3_FR	DS_MAIN+}
+{+530	103	LASTORDER_VERK_NOTE_STATUS_ver3_ENG.fr3	Lastorder	dbo.vis_LO_VERK_STATUS_v3_FR	DS_MAIN+}
+536	2	INVOICE.fr3	Faktura	dbo.vis_INVOICE	DS_MAIN
+550	501	Attest.fr3		dbo.Vida_Attest	DS_MAIN
+552	502	AttestRun.fr3		dbo.VIS_Attest_Run	DS_MAIN
+@@ -101,7 +105,7 @@ ReportNo	DocType	ReportName	Description	StoredProcName	DatasetUserName
+573	633	KONTRAKTProdInstru_AGENT_ver2.fr3	Inköpskontrakt Svensk - med instruktioner	dbo.vida_KONTRAKT_ver2_SR	DS_MAIN
+574	597	CONTRACTProdInstru_NOTE_ver2_ENG.fr3	Kontrakt engelsk version	dbo.Vida_KONTRAKT_ver2_FR	DS_MAIN
+575	1	Lev_Kontrakt_SV.fr3		dbo.Vida_ShipPerOrd_FR	DS_MAIN
+578	[-634-]{+3+}	LASTORDER_VERK_NOTE_ver3_SV.fr3	Lastorder	dbo.vis_LO_VERK_v3_FR	DS_MAIN
+579	635	LASTORDER_VERK_NOTE_STATUS_ver3.fr3	Lastorder	dbo.vis_LO_VERK_v3	DS_MAIN
+580	636	Kundetiketter_III.fr3	Kundetiketter version 3	dbo.vida_KUNDLISTA_II	DS_MAIN
+581	511	FAKTURA_ENG_IDAHO_NOTE.fr3		dbo.vida_INVOICE	DS_MAIN

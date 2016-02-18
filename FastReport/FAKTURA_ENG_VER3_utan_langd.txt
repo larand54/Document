@@ -1,0 +1,38 @@
+Info tagen från CrystalReport versionen:
+
+Formelfält:
+DEST
+IF {vida_INVOICE;1.DestText} > '' THEN {vida_INVOICE;1.DestText}
+ELSE ({vida_INVOICE;1.DeliveryTerm}&" "&{vida_INVOICE;1.Postnr}&" "&{vida_INVOICE;1.ORT})
+
+PRICEUNIT
+IF {vida_INVOICE;1.PriceUnit}= "Kvm aB" THEN "M2"
+ELSE IF {vida_INVOICE;1.PriceUnit}= "Kvm tB" THEN "M2"
+ELSE IF {vida_INVOICE;1.PriceUnit}= "Lopm a" THEN "M1"
+ELSE IF {vida_INVOICE;1.PriceUnit}= "m3 aDxaL" THEN "M3"
+ELSE IF {vida_INVOICE;1.PriceUnit} = "m3 aDxnL" THEN "M3"
+ELSE IF {vida_INVOICE;1.PriceUnit} = "m3 nDxaL" THEN "M3"
+ELSE IF {vida_INVOICE;1.PriceUnit} = "m3 nDxnL" THEN "M3"
+ELSE IF {vida_INVOICE;1.PriceUnit} = "MFBM Nom" THEN "MFBM"
+ELSE IF {vida_INVOICE;1.PriceUnit} = "Packages" THEN "PKGS"
+ELSE IF {vida_INVOICE;1.PriceUnit}= "Stycketal" THEN "PCS"
+
+RUBRIK
+IF ({vida_INVOICE;1.Tot_Inv_Inc_Freight_Extras})<0 THEN "CREDIT INVOICE" ELSE "INVOICE" 
+
+StateOrProv
+if isnull({vida_INVOICE;1.StateOrProvince}) then ' '
+else
+{vida_INVOICE;1.StateOrProvince}
+
+SUMBET
+IF ({vida_INVOICE;1.Inv_Value_To_Be_Paid_2}) < 0 THEN "IN YOUR FAVOUR" ELSE "INVOICE VALUE"
+
+UNDERRAPPORTER
+CertWoodInv
+ShipTo
+
+Parametervärden:
+vis_invoice_CertText.InternalInvoiceNo	vida.invoice.INT_INVOICENO - använd @INVOICENO
+vis_shipto.InternalInvoiceNo @INVOICENO
+vis_shipto.Reference		vida.invoice.SHIPREF   Joina tabeller i den lagrade proceduren 

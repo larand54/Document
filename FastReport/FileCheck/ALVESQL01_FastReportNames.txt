@@ -1,0 +1,167 @@
+ReportNo	DocType	ReportName	Description	StoredProcName	DatasetUserName
+5	3	LASTORDER_VERK_NOTE.fr3	Lastorder	dbo.vida_LO_VERK	DS_MAIN
+11	624	TRP_AVROPSORDER_NOTE_SV.fr3	Trporder avrop försäljning	dbo.vida_TRP_AVROPSORDER_FR	DS_MAIN
+15	1	KONTRAKT_NOTE.fr3	Försäljningskontrakt Svensk - utan instruktioner	dbo.vida_KONTRAKT_FR	DS_MAIN
+16	1	CONTRACTProdInstru_NOTE_ver2_SV.fr3	Försäljningskontrakt Engelsk - med instruktioner	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+17	598	CONTRACT_NOTE_ENG.fr3	Försäljningskontrakt Engelsk - utan instruktioner	dbo.vida_KONTRAKT_FR	DS_MAIN
+18	631	INCONTRACTProdInstru_NOTE_ver2_SV.fr3	Inköpskontrakt Svensk - med instruktioner	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+19	599	INCONTRACT_NOTE_SV.fr3	Inköpskontrakt Svensk - utan instruktioner	dbo.vida_KONTRAKT_FR	DS_MAIN
+20	3	LASTORDER_NOTE_ver3_SV.fr3	Lastorder försäljning	dbo.vis_LO_v3_FR	DS_MAIN
+21	602	LASTORDER_INKOP_NOTE_ver2.fr3	Lastorder inköp	dbo.vida_LO_v2	DS_MAIN
+22	6	TRP_ORDER_NOTE_SV.fr3	Transportorder/Orderbekräftelse	dbo.vida_TRP_ORDER_FR	DS_MAIN
+23	604	TRP_ORDER_INKOP_NOTE.fr3	Transportorder inköp LO 	dbo.vida_TRP_ORDER	DS_MAIN
+28	616	CONTRACTProdInstru_NOTE_dk_ver2.fr3	Försäljningskontrakt  - med instruktioner (DK)	dbo.vida_KONTRAKT_ver2	DS_MAIN
+29	615	CONTRACT_NOTE_dk.fr3	Försäljningskontrakt - utan instruktioner (DK)	dbo.vida_KONTRAKT	DS_MAIN
+30	614	INCONTRACTProdInstru_NOTE_dk_ver2.fr3	Inköpskontrakt - med instruktioner (DK)	dbo.vida_KONTRAKT	DS_MAIN
+31	613	INCONTRACT_NOTE_dk.fr3	Inköpskontrakt  - utan instruktioner (DK)	dbo.vida_KONTRAKT	DS_MAIN
+32	607	LASTORDER_NOTE_dk_ver2.fr3	Lastorder försäljning (DK)	dbo.vida_LO_v2	DS_MAIN
+34	608	LASTORDER_INKOP_NOTE_dk_ver2.fr3	Lastorder inköp (DK)	dbo.vida_LO_VERK_v2	DS_MAIN
+36	611	CONTRACTProdInstru_NOTE_dk_eng_ver2.fr3	Försäljningskontrakt  - med instruktioner (DK/ENG)	dbo.vida_KONTRAKT_ver2	DS_MAIN
+37	612	CONTRACT_NOTE_dk_eng.fr3	Försäljningskontrakt - utan instruktioner (DK/ENG)	dbo.vida_KONTRAKT	DS_MAIN
+38	8	LASTORDER_INKOP_NOTE_dk_eng_ver2.fr3	Lastorder inköp (DK/ENG)	dbo.vida_LO_VERK_v2	DS_MAIN
+39	10	TALLY_VER2_INKOP_NOTE.fr3	Följesedel inköp	dbo.vida_PopTally_II	DS_MAIN
+41	12	TALLY_US_NOTE.fr3	Följesedel försäljning USA	dbo.vida_PopTally_II	DS_MAIN
+42	13	TRP_BREV.fr3	Transport brev	dbo.vida_TrpBrv_II	DS_MAIN
+43	4	TALLY_NOTE_VER3_SV.fr3	Följesedel försäljning	dbo.vis_PopTally_III_FR	DS_MAIN
+48	1	Försäljningskontrakt-proforma(ENG).fr3	Försäljningskontrakt  - proforma (ENG)	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+55	4	TALLY_INTERNAL_VER3_NOTE.fr3	Följesedel (intern)	dbo.vis_PopTally_IntTable_II	DS_MAIN
+56	4	TALLY_NOTE_VER3_ENG.fr3	Följesedel försäljning (engelska)	dbo.vis_PopTally_III_FR	DS_MAIN
+61	1	Försäljningskontrakt-proforma_SV.fr3	Försäljningskontrakt  - proforma (SE)	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+65	621	AVROPSORDER_NOTE_STATUS_ver3_SV.fr3	Avrop	dbo.vis_Avrop_STATUS_v3_FR	DS_MAIN
+69	622	TRP_AVROPSORDER_NOTE_STATUS_SV.fr3	Trporder avrop försäljning	dbo.vida_TRP_AVROPSORDER_STATUS_FR	DS_MAIN
+71	630	KONTRACT_AGENT.FR3	Kontrakt VTA agent, annan förs.region	dbo.vida_KONTRAKT_SR	DS_MAIN
+73	7	SPECIFICATION_VER2_VTA.fr3	VTA Spec (ENG)	dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+74	1	CONTRACTProdInstru_NOTE-LENA-TSUDA.fr3	Proforma kontrakt Tsuda	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+75	1	Försäljningskontrakt-proforma-utanmoms(SE).fr3	Försäljningskontrakt - proforma utan moms (SE)	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+81	7	SPECIFICATION_VER3_ENG.fr3	Spec på engelska	dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+82	7	SPECIFICATION_VER3_SV.fr3	Spec på svenska	dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+87	2	FAKTURA_VER3_SV.fr3	Faktura på svenska med längdbeskrivning	dbo.vis_INVOICE_FR	DS_MAIN
+91	2	FAKTURA_utanLangd_VER3_SV.fr3	Faktura på svenska utan längdbeskrivning	dbo.vis_INVOICE_FR	DS_MAIN
+92	2	FAKTURA_VER3_ENG.fr3	Faktura på engelska med längdbeskrivning	dbo.vis_INVOICE_FR	DS_MAIN
+93	2	FAKTURA_utanLangd_ver3_ENG.fr3	Faktura på engelska utan längdbeskrivning	dbo.vis_INVOICE_FR	DS_MAIN
+94	2	FAKTURA_ENG_VER3_ProdKod.fr3	Faktura på engelska med prodkod och intrastat	dbo.vis_INVOICE_ProdKod	DS_MAIN
+95	2	FAKTURA_ENG_IDAHO_VER3.fr3	Faktura till kund Idaho	dbo.vis_INVOICE	DS_MAIN
+97	2	FAKTURA_ENG_PKTTYP_VER3.fr3	Faktura till kund USA per pakettyp	dbo.vis_INVOICE	DS_MAIN
+98	7	SPECIFICATION_ENG_GrpLast_VER3.fr3	Spec på engelska grupperad per följesedel	dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+100	7	SPECIFICATION_SV_GrpLast_VER3.fr3	Spec på svenska grupperad per följesedel	dbo.vida_PopulateSpectable_II_FR	DS_MAIN
+101	7	SPECIFICATION_PROD_VER3.fr3	Spec på engelska med producent	dbo.vida_PopulateSpectable_II_FR	DS_MAIN
+102	7	SPEC_ACT_VER3.fr3	Spec på engelska med bara aktuell dimension, inte nominell	dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+104	7	SPECIFICATION_IDAHO_VER3.fr3	Spec USA anpassad (paket med paketnr)	dbo.vida_PopulateSpectable_II_FR	DS_Main
+105	7	SPEC_NOPKGNO.VER3.fr3	Spec USA anpassad (paket utan paketnr)	dbo.vida_PopulateSpectable_II_FR	DS_MAIN
+106	2	FAKTURA_SV_VER3_utanLängd_tvådec.fr3	Faktura på svenska utan längd och med två decimaler i volym	dbo.vis_INVOICE	DS_MAIN
+107	2	FAKTURA_ENG_PKTTYP_VER3_Larmak.fr3	Faktura till usa, ej delad på lo	dbo.vis_INVOICE	DS_MAIN
+108	20	AORES01.fr3	Resultat av körning	dbo.Vis_AORes	DS_MAIN
+110	22	VerkGradRapport.fr3	Verkningsgrad rapport	dbo.vis_verkGradHuvud	DS_MAIN
+111	2	FAKTURA_ENG_längd_plus_NM3_NOTE_VTA.fr3	Faktura VTA	dbo.vida_INVOICE	DS_MAIN
+288	598	CONTRACT_NOTE_SV.fr3	Kontrakt engelsk version	dbo.vida_KONTRAKT_FR	DS_MAIN
+289	3	LASTORDER_VERK_NOTE_ver3.fr3	Lastorder	dbo.vis_LO_VERK_v3_FR	DS_MAIN
+290	3	LASTORDER_VERK_NOTE_STATUS_ver3.fr3	Lastorder	dbo.vis_LO_VERK_v3_FR	DS_MAIN
+291	535	LASTORDER_INKOP_NOTE_STATUS_ver2.fr3	Lastorder	dbo.vida_LO_STATUS_v2	DS_MAIN
+294	610	LASTORDER_INKOP_NOTE_dk_eng.fr3	Lastorder	dbo.vida_LO	DS_MAIN
+295	609	LASTORDER_INKOP_NOTE_dk.fr3	Lastorder	dbo.vida_LO	DS_MAIN
+296	586	AVROPSORDER_INKOP_NOTE_STATUS_ver2.fr3		dbo.vida_Avrop_STATUS_v2	DS_MAIN
+297	619	TRP_AVROPSORDER_INKOP_NOTE_STATUS.fr3		dbo.vida_TRP_AVROPSORDER_STATUS	DS_MAIN
+298	625	TRP_AVROPSORDER_INKOP_NOTE_dk.fr3		dbo.vida_TRP_AVROPSORDER	DS_MAIN
+299	585	AVROPSORDER_INKOP_NOTE_dk_ver2.fr3		dbo.vida_AVROP_v2	DS_MAIN
+303	533	KONTRAKT_IP_PI_NOTE_sv.fr3	Kontrakt sv	dbo.vida_KONTRAKT_ip	DS_MAIN
+308	627	CONTRACTProdInstru_NOTE_LENA_ENG.fr3	Kontrakt engelsk version	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+309	627	CONTRACTProdInstru_NOTE_LENA_SV.fr3	Kontrakt engelsk version	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+313	1001	Lev_Kontrakt.fr3	Kontrakt engelsk version	dbo.Vida_ShipPerOrd	DS_MAIN
+314	588	Lev_Kontrakt_with_Avrop.fr3	Kontrakt engelsk version	dbo.Vida_ShipPerOrd	DS_MAIN
+315	8	Kundetiketter_III.fr3	Kontrakt engelsk version	dbo.vida_KUNDLISTA_II	DS_MAIN
+316	626	OrderPreCalc.fr3	Kontrakt engelsk version	dbo.vis_OrderPreCalc	DS_MAIN
+317	637	PkgCodes.fr3	Kontrakt engelsk version	dbo.VIS_PrintPkgCodes	DS_MAIN
+318	617	USContractBL.fr3	Kontrakt engelsk version	dbo.vida_KONTRAKT	DS_MAIN
+319	8	WM_PrisLista.fr3	Kontrakt engelsk version	dbo.Vis_PrislistaRpt	DS_MAIN
+502	621	AVROPSORDER_NOTE_STATUS_ver3_ENG.fr3	Avrop	dbo.vis_Avrop_STATUS_v3_FR	DS_MAIN
+503	623	AVROPSORDER_NOTE_ver2_ENG.fr3		dbo.vida_AVROP_v2_FR	DS_MAIN
+504	622	TRP_AVROPSORDER_NOTE_STATUS_ENG.fr3	Trporder avrop försäljning	dbo.vida_TRP_AVROPSORDER_STATUS_FR	DS_MAIN
+505	624	TRP_AVROPSORDER_NOTE_ENG.fr3	Trporder avrop försäljning	dbo.vida_TRP_AVROPSORDER_FR	DS_MAIN
+506	103	LASTORDER_NOTE_ver3_ENG.fr3	Lastorder försäljning engelsk version	dbo.vis_LO_v3_FR	DS_MAIN
+507	103	LASTORDER_NOTE_STATUS_ver3_ENG.fr3		dbo.vis_LO_STATUS_v3_FR	DS_MAIN
+508	567	SPECIFICATION_ver3_ENG.fr3		dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+509	631	INCONTRACTProdInstru_NOTE_ver2_ENG.fr3	Inköpskontrakt Engelsk - med instruktioner	dbo.vida_KONTRAKT_ver2_FR	DS_MAIN
+510	106	TRP_ORDER_NOTE_ENG.fr3	Transportorder/Orderbekräftelse	dbo.vida_TRP_ORDER_FR	DS_MAIN
+512	106	TRP_ORDER_NOTE_STATUS_ENG.fr3		dbo.vida_TRP_ORDER_STATUS_FR	DS_MAIN
+513	101	Lev_Kontrakt_ENG.fr3		dbo.Vida_ShipPerOrd_FR	DS_MAIN
+536	2	INVOICE.fr3	Faktura	dbo.vis_INVOICE	DS_MAIN
+550	501	Attest.fr3		dbo.Vida_Attest	DS_MAIN
+552	502	AttestRun.fr3		dbo.VIS_Attest_Run	DS_MAIN
+553	505	AVR_SPEC_TALLY_INTERNAL_VER2.fr3		dbo.vida_PopTally_IntTable_II	DS_MAIN
+554	506	AVR_SPEC_TALLY_VER2		dbo.vida_PopTally_II	DS_MAIN
+556	507	AVRAKNING_2		dbo.vida_Avrakning2	DS_MAIN
+557	508	AVRAKNING_ver_II		dbo.vida_Avrakning_ver_II	DS_MAIN
+562	509	CMR.fr3		dbo.vis_CMR	DS_MAIN
+563	597	CONTRACTProdInstru_NOTE_ver2_SV.fr3	Kontrakt med instruktioner svensk version	dbo.Vida_KONTRAKT_ver2_FR	DS_MAIN
+566	605	TRP_ORDER_NOTE_dk.fr3	Transportorder/Orderbekräftelse	dbo.vida_TRP_ORDER	DS_MAIN
+567	580	TRP_ORDER_INKOP_NOTE_dk.fr3	Transportorder inköp LO 	dbo.vida_TRP_ORDER	DS_MAIN
+570	581	trp_order_inkop_NOTE_STATUS.fr3		dbo.vida_TRP_ORDER_STATUS	DS_MAIN
+571	6	TRP_ORDER_NOTE_STATUS_SV.fr3		dbo.vida_TRP_ORDER_STATUS_FR	DS_MAIN
+572	623	AVROPSORDER_NOTE_ver2_SV.fr3		dbo.vida_AVROP_v2_FR	DS_MAIN
+573	633	KONTRAKTProdInstru_AGENT_ver2.fr3	Inköpskontrakt Svensk - med instruktioner	dbo.vida_KONTRAKT_ver2_SR	DS_MAIN
+574	597	CONTRACTProdInstru_NOTE_ver2_ENG.fr3	Kontrakt engelsk version	dbo.Vida_KONTRAKT_ver2_FR	DS_MAIN
+575	1	Lev_Kontrakt_SV.fr3		dbo.Vida_ShipPerOrd_FR	DS_MAIN
+578	634	LASTORDER_VERK_NOTE_ver3_SV.fr3	Lastorder	dbo.vis_LO_VERK_v3_FR	DS_MAIN
+579	635	LASTORDER_VERK_NOTE_STATUS_ver3.fr3	Lastorder	dbo.vis_LO_VERK_v3	DS_MAIN
+580	636	Kundetiketter_III.fr3	Kundetiketter version 3	dbo.vida_KUNDLISTA_II	DS_MAIN
+581	511	FAKTURA_ENG_IDAHO_NOTE.fr3		dbo.vida_INVOICE	DS_MAIN
+582	514	FAKTURA_ENG_längd_plus_NM3_NOTE.fr3		dbo.vida_INVOICE	DS_MAIN
+583	516	FAKTURA_ENG_NOTE_dk.fr3		dbo.vida_INVOICE	DS_MAIN
+584	517	FAKTURA_ENG_PKTTYP_NOTE.fr3		dbo.vida_INVOICE	DS_MAIN
+585	518	FAKTURA_NOTE.fr3		dbo.vida_INVOICE	DS_MAIN
+586	519	FAKTURA_u_moms_NOTE_dk.fr3		dbo.vida_INVOICE	DS_MAIN
+587	520	FRAKT_AVRAKNING.fr3		dbo.Vida_AVR	DS_MAIN
+588	521	FSC_Statistik.fr3		dbo.vis_FSC_Stat	DS_MAIN
+589	522	HampenPaketTrfLogg.fr3		dbo.vis_HTFPackageTransferLogg	DS_MAIN
+590	523	HampenTrfLogg.fr3		dbo.vis_TransferFileLogg	DS_MAIN
+591	526	INV_BY_LENGTH.fr3		dbo.vida_INV_BY_LENGTH	DS_MAIN
+592	527	INV_BY_PKG_CODE.fr3		dbo.vida_INV_BY_PKGTYPE	DS_MAIN
+593	528	INV_BY_PKGNo.fr3		dbo.vida_Populate_INV_BY_PKGNo	DS_MAIN
+594	529	INV_BY_PKGNo_Summ.fr3		dbo.vida_Populate_INV_BY_PKGNo	DS_MAIN
+595	530	InvenLagerListaPktTyp.fr3		dbo.vida_InvCtrlPktTyp	DS_MAIN
+596	531	InvenSummary.fr3		dbo.vis_InvenSumReport	DS_MAIN
+597	532	InventeringPerPktTyp		dbo.vida_InvCtrlPktTyp	DS_MAIN
+598	534	KP_LISTA.fr3		dbo.vida_KP_LIST	DS_MAIN
+599	3	LASTORDER_NOTE_STATUS_ver3_SV.fr3		dbo.vis_LO_STATUS_v3_FR	DS_MAIN
+600	537	LASTORDER_VERK_NOTE_dk_ver2.fr3		dbo.vida_LO_VERK_v2	DS_MAIN
+602	539	LO_HH.fr3		dbo.vis_LO_HH	DS_MAIN
+603	540	NotInv.fr3		dbo.VIDA_LoadNotInvoiced	DS_MAIN
+604	541	PEFC_Statistik.fr3		dbo.vis_PEFC_Stat	DS_MAIN
+605	542	PKG_PRODUCTION.fr3		dbo.vida_PkgProd_Rep	DS_MAIN
+606	543	PKGNOLIST_I.fr3		dbo.vida_Populate_INV_BY_PKGNo	DS_MAIN
+607	544	PROD_BY_LENGTH.fr3		dbo.vida_PROD_BY_LENGTH	DS_MAIN
+608	545	PROD_BY_PKGNo.fr3		dbo.vida_PROD_BY_PkgNo	DS_MAIN
+609	546	SAM_LAST.fr3		dbo.vida_SamLast	DS_MAIN
+610	547	SAM_LAST_II.fr3		dbo.vida_SamLast_II	DS_MAIN
+611	548	SAM_LAST_PKTNR.fr3		dbo.vida_SamLast_PktNr	DS_MAIN
+612	549	SAM_LAST_PKTNR_II.fr3		dbo.vida_SamLast_PktNr_II	DS_MAIN
+613	549	SAM_LAST_USA.fr3		dbo.vida_SamLast_II	DS_MAIN
+614	550	SAM_LAST_USA_II.fr3		dbo.vida_SamLast_II	DS_MAIN
+615	551	SAM_LAST_USA_II.fr3		dbo.vida_SamLast_USA_II	DS_MAIN
+616	552	SAM_LASTperref.fr3		dbo.Vida_SamLast_II	DS_MAIN
+617	553	SAML_FAKT.fr3		dbo.Vida_SamFakt	DS_MAIN
+618	554	SHIPPING_INSTRUCT.fr3		dbo.Vida:Shipping_Instruction	DS_MAIN
+619	555	SokAvrop.fr3		dbo.SokAvrop	DS_MAIN
+620	557	SOKAVROP_VERK_DIM.fr3		dbo.Vida_SokAvropDim	DS_MAIN
+621	558	SOKAVROP_VERK_DIM_PO.fr3		dbo.Vida_SokAvropDim_PO	DS_MAIN
+622	559	SPEC_ACT_VER2.fr3		dbo.vida_PopulateSpecTable_II	DS_MAIN
+623	560	SPEC_ALLA_LASTER_III.fr3		dbo.vida_PopTallyNoVerk_III	DS_MAIN
+624	561	SPEC_ALLA_LASTER_VERK_dk.fr3		dbo.vida_PopulateTally_SpecAllVerk_II	DS_MAIN
+625	562	SPEC_ALLA_LASTER_VERK_III.fr3		dbo.vida_PopulateTally_SpecAllVerk_III	DS_MAIN
+626	563	SPEC_NOPKGNO.fr3		dbo.vida_PopSpecTable_noPktNr	DS_MAIN
+627	564	SPECIFICATION_IDAHO_VER3.fr3		dbo.vis_PopulateSpecTable_IDAHO	DS_MAIN
+628	565	SPECIFICATION_PROD_VER3.fr3		dbo.vida_PopulateSpecTable_II	DS_MAIN
+629	566	SPECIFICATION_SV_GrpLast_VER3.fr3		dbo.vis_PopSpecTable_GrpLoadNo	DS_MAIN
+631	567	SPECIFICATION_SV_VER3.fr3		dbo.vida_PopulateSpecTable_II_FR	DS_MAIN
+632	568	SPECIFICATION_SV_VER2_dk.fr3		dbo.vida_PopulateSpecTable_II	DS_MAIN
+633	569	SPECIFICATION_VER2.fr3		dbo.vida_PopulateSpecTable_II	DS_MAIN
+634	570	SPECIFICATION_VER2_dk.fr3		dbo.vida_PopulateSpecTable_II	DS_MAIN
+635	571	STEF_I.fr3		dbo.Vida_STEF_I	DS_MAIN
+636	572	STEF_Per_Kontrakt.fr3		dbo.Vida_STEF_Per_Kontrakt	DS_MAIN
+637	574	TALLY_INT_USA.fr3		dbo.vida_PopTally_Int_USA	DS_MAIN
+638	576	TALLY_INTERNAL_USA_VER2_NOTE.fr3		dbo.vida_PopTally_IntTable_II	DS_MAIN
+639	582	UtfallKorning.fr3		dbo.vida_PROD_BY_RUN	DS_MAIN
+640	583	UtfallKorningII.fr3		dbo.Vis_RunUtfall	DS_MAIN
+653	584	WM_PrisLista_1.fr3		dbo.Vis_PrislistaRpt	DS_MAIN
+654	9	TRP_ORDER_INKOP_NOTE.fr3	Transportorder inköp LO 	dbo.vida_TRP_ORDER	DS_MAIN
+655	4	TALLY_VER3_NOTE_MM.fr3	Följesedel (Paket saknar matcning)	dbo.vida_PopTally_II_MM	DS_MAIN
